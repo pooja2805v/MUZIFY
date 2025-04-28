@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Muzify Trip</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(145deg, black, #ff7300);
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            border-radius: 20px;
+            max-width: 800px;
+            margin: 50px auto;
+            background: linear-gradient(145deg, #ff7300,black);
+            padding: 20px;
+            color: #ffffff;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #ffffff;
+        }
+        form {
+            display: grid;
+            gap: 15px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid #000000;
+        }
+        button {
+            background-color: orange;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: orangered;
+        }
+        .contact-info {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ffffff;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Contact Us</h1>
+    <p>If you have any questions about your Muzify, feel free to contact us using the form below:</p>
+
+    <form action="#" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p><strong>Email:</strong> support@muzify.com</p>
+        <p><strong>Phone:</strong> +123-456-7890</p>
+        <p><strong>Address:</strong> Tamil Nadu</p>
+    </div>
+</div>
+
+</body>
+</html>
